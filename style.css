@@ -1,0 +1,122 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+    text-align:center;
+    background-color: #f6f5f5;
+}
+h1{
+    color: #1687a7;
+    margin: 0 auto 0 auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5.4rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1687a7;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #276678;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    padding: 55px 0;
+    background-color: #d3e0ea;
+    max-width: 100%;
+    width: 100%;
+
+}
+.middle-container{
+    margin: 30px 0;
+    padding:10px;
+
+
+}
+.bottom-container{
+    margin: 30px 0 0 0 ;
+    padding:10px;
+    background-color: #276678;
+    color: #f6f5f5;
+    
+    padding: 20px;
+    bottom:0;
+}
+.footer-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f6f5f5;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 4px 15px;
+    margin: 20px;
+    cursor:pointer;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row  li{
+    list-style: none;
+}
+.skill-row  ul{
+    display:inline;
+    left:0;
+}
+.skill-row  h3{
+    margin-top:40px;
+    padding-top:20px;
+}
+
+.mountain{
+    width:400px;
+    margin: 30px auto 0 auto;
+
+}
+.cloud1{
+    position: absolute;
+    width: 200px;
+    right:15%;
+    top:13%;
+
+}
+.cloud2{
+    position: absolute;
+    width: 200px;
+    left:15%;
+    top:35%;
+}
+.typing-gif{
+    float:left;
+    width:20%;
+    margin-right: 15px;
+}
+
+.chess-img{
+    float:right;
+    width:20%;
+    margin-left: 15px;
+}
+.btn{
+    display:inline-block;
+    margin-top: 30px;
+    background-color: #1687a7;
+    color:#f6f5f5;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+hr{
+    border: 10px dotted #1687a7;
+    margin: 30px auto;
+    border-bottom: hidden;
+    width:10%;
+}
