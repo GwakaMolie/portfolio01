@@ -46,16 +46,7 @@ p{
     padding: 20px;
     bottom:0;
 }
-.footer-link{
-    text-decoration: none;
-    font-weight: bold;
-    color: #f6f5f5;
-    border: 1px solid white;
-    border-radius: 0px;
-    padding: 4px 15px;
-    margin: 20px;
-    cursor:pointer;
-}
+
 .skill-row{
     width: 50%;
     margin: 100px auto;
@@ -70,8 +61,8 @@ p{
     left:0;
 }
 .skill-row  h3{
-    margin-top:40px;
-    padding-top:20px;
+    margin-top:20px;
+    padding-top:40px;
 }
 
 .mountain{
@@ -108,15 +99,33 @@ p{
     margin-top: 30px;
     background-color: #1687a7;
     color:#f6f5f5;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
     cursor:pointer;
-
 }
+
+.btn:hover{
+    background-color: #276678;
+    color: #f6f5f5;
+}
+.footer-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f6f5f5;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 4px 15px;
+    margin: 20px;
+    cursor:pointer;
+}
+.footer-link:hover{
+    background-color: #1687a7;
+}
+
 hr{
-    border: 10px dotted #1687a7;
-    margin: 30px auto;
+    border: 6px dotted #c6cdd3;
+    margin: 70px auto;
     border-bottom: hidden;
-    width:10%;
+    width:20%;
 }
